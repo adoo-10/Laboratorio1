@@ -27,8 +27,6 @@ namespace Laboratorio01
                 Console.WriteLine("Cual es su edad?");
                 dep.edad = Convert.ToInt32(Console.ReadLine());
                 dep.Departamento();
-                Console.WriteLine("Su edad es: " + dep.edad);
-                Console.ReadLine();
                 Console.Clear();
                 Console.WriteLine("Desea agregar otra persona?");
                 Console.WriteLine("1. Si");
@@ -354,6 +352,9 @@ namespace Laboratorio01
                     municipio = "Cuyultitan";
                 }
             }
+
+            Console.WriteLine("\n \n Su edad es: " + edad);
+            Console.ReadLine();
 
         }
 
